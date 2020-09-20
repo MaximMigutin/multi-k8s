@@ -21,3 +21,4 @@ after_success:
   - docker push maximam2014/multi-nginx
   - docker push maximam2014/multi-server
   - docker push maximam2014/multi-worker
+# comment
