@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-- docker build -t maximam2014/react-test -f ./client/Dockerfile.dev ./client/Dockerfile.dev
+- docker build -t maximam2014/react-test -f ./client/Dockerfile.dev ./client
 
 script:
   - docker run -e CI=true maximam2014/react-test npm test
